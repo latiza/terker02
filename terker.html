@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="terker.css">
+    <title>Téglalap </title>
+</head>
+
+<body>
+    <header>
+        <h1>Műveletek javascripttel</h1>
+    </header>
+    <div class="wrapper">
+        <table>
+            <th colspan="3">Téglalap területének és kerületének kiszámítása javascripttel</th>
+            <tr>
+                <th>Téglalap hossza:</th>
+                <td><input type="number" id="hossz" value="0" onchange="szamol();"></td>
+
+                <td rowspan="4">
+                    <div class="tegla"></div>
+                </td>
+
+
+            </tr>
+            <tr>
+                <th>Téglalap szélessége:</th>
+                <td><input type="number" id="szel" value="0" onchange="szamol();"></td>
+            </tr>
+            <tr>
+                <th>Területe:</th>
+                <td><input type="number" id="ter" value="0" disabled></td>
+            </tr>
+            <tr>
+                <th>Kerülete:</th>
+                <td><input type="number" id="ker" value="0" a disabled></td>
+
+            </tr>
+            <tr>
+                <th colspan="3">Szavak összefűzése javascripttel</th>
+            </tr>
+            <tr>
+                <th>Első szó:</th>
+                <td><input type="text" onchange="szamol()"></td>
+                <td rowspan="3">
+                    <div class="kor"></div>
+                </td>
+            </tr>
+            <tr>
+                <th>Második szó:</th>
+                <td><input type="text" id="masodik" onchange="szamol()"></td>
+            </tr>
+            <tr>
+                <th>Összefűzve:</th>
+                <td><input type="text" id="fuzott" disabled></td>
+            </tr>
+
+
+        </table>
+    </div>
+    <script src="terker.js"></script>
+</body>
+
+</html>

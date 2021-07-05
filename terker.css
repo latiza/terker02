@@ -1,0 +1,52 @@
+html {
+    height: 100%
+}
+
+body {
+    background-image: linear-gradient(grey, black, grey);
+}
+
+header {
+    border: 2px solid black;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px dotted black;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.tegla {
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.kor {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: auto;
+}
